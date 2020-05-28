@@ -1,22 +1,14 @@
-# Entropy Game Boilerplate
+# Entropic Game Boilerplate
 
 Quick way to jump start your nodejs typescript game using the entropy game engine. 
 Pack includes tslint, nodemon, concurrently and webpack for easy development and deployment.
 
-To get started clone the repository:
-```
-git clone https://github.com/cmwaters/entropy-boilerplate mygame
-```
-Then, 
-```
-cd mygame
-```
-and run
+- To get started either fork or clone the repository.
+- Once locally downloaded and in the root directory, install the dependencies by running:
 ```
 npm install
 ```
-to install all the dependencies and finally
+- Then to build and run the game on the local server, run:
 ```
 npm run start
 ```
-to run on your local server
