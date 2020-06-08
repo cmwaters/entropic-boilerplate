@@ -1,23 +1,26 @@
 {
-  "name": "entropy-boilerplate",
+  "name": "entropi-boilerplate",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "concurrently \"webpack --watch\" \"nodemon ./bin/www\"",
-    "start": "webpack && node ./bin/www",
+    "build": "webpack",
+    "start": "node ./bin/www",
     "lint": "tslint -p tsconfig.json"
   },
   "dependencies": {
     "concurrently": "^5.2.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "entropic": "~0.1.2",
+    "entropi": "^0.1.5",
     "express": "~4.16.1",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "paper": "^0.12.8"
   },
   "devDependencies": {
     "@types/node": "^14.0.1",
+    "file-loader": "^6.0.0",
     "ts-loader": "^7.0.4",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
