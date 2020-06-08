@@ -2,17 +2,8 @@
 
 Quick way to jump start your nodejs typescript game using the entropi game engine and the paper package as the renderer. Pack includes tslint, nodemon, concurrently and webpack for easy development and deployment.
 
-- To get started either fork or clone the repository.
+- To get started click `Use this template` to create a copy of the repo
 
-- Once locally downloaded and in the root directory, install the dependencies by running:
-  
-```bash
-npm install
-```
+- Once locally downloaded and in the root directory, run `sudo bash setup.sh myGame` where `myGame` is the name of your game
 
-- Then to build and run the game on the local server, run:
-  
-```bash
-npm run build
-npm run start
-```
+- Then to run the game on a local server type, `npm run start`
