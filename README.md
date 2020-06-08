@@ -1,4 +1,4 @@
-# Entropic Game Boilerplate
+# Entropi Game Boilerplate
 
 Quick way to jump start your nodejs typescript game using the entropi game engine and the paper package as the renderer. Pack includes tslint, nodemon, concurrently and webpack for easy development and deployment.
 
