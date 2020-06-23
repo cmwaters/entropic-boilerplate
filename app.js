@@ -4,10 +4,22 @@ let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 let app = express();
 let router = express.Router();
+app.set("view engine", "pug");
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index');
+    res.render('instructions');
+});
+
+router.get('/instructions', function(req, res, next) {
+    res.render('instructions');
+});
+
+router.get('/game', function(req, res, next) {
+    res.render('game');
+});
+
+router.get('/end', function(req, res, next) {
+    res.render('end');
 });
 
 app.use(logger('dev'));

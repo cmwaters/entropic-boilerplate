@@ -1,6 +1,6 @@
-# Entropi Game Boilerplate
+# Teloscope Game Scaffold
 
-Quick way to jump start your nodejs typescript game using the entropi game engine and the paper package as the renderer. Pack includes tslint, nodemon, concurrently and webpack for easy development and deployment.
+Easy way to generate a nodejs typescript game using the entropi game engine and the paper package as the renderer. Pack includes tslint, nodemon, concurrently and webpack for easy development and deployment.
 
 - To get started click `Use this template` to create a copy of the repo
 

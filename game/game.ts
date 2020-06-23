@@ -17,7 +17,7 @@ window.onload = () => {
     paper.setup(paperCanvas)
 
 
-    let game = new Game({
+    new Game({
         renderer: new PaperRenderer(screen),
         create: create,
         update: update,
