@@ -4,16 +4,16 @@ gameName="$1"
 
 echo setting up ${gameName}...
 
-perl -pi -e 's/entropi-boilerplate/'${gameName}'/g' ./package.json
+perl -pi -e 's/game/'${gameName}'/g' ./package.json
+
+perl -pi -e 's/Game/'${gameName}'/g' ./views/header.pug
 
 rm ./README.md
 
+echo installing packages and deleting script and README
+
 npm install
-
-npm run build
-
-echo deleting script and README
 
 rm ./setup.sh
 
-echo setup completed. Use `npm run start` to start game
+echo setup completed. Use `npm run dev` to start game
